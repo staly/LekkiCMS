@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="StormWEB" />
+    <meta name="keywords" content="{{site.keywords}}" />
+    <meta name="description" content="{{site.description}}" />
+    <title>{{site.title}} - {{page.title}}</title>
+    <link rel="stylesheet" href="{{theme.path}}/style.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <div id="wrap-header">
+        <header id="header">
+            <h1><a href="index.php"><img src="{{theme.path}}/images/logo.png" alt="CS-LOD" /></a></h1>
+            <nav class="menu">
+                <ul>
+                    {{menu.top}}
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="wrap-content">
+        <section id="main">
+            <article class="content">
+                <h2><p>{{page.title}}</p></h2>
+                
+                <p>{{page.content}}</p>
+            </article>
+        </section>
+        <aside id="sidebar">
+            <div class="widget">
+                <h3><p>Partnerzy</p></h3>
+                <a href="http://pukawka.pl/pp,kajtsweb.html"><img src="https://admin.pukawka.pl/pukawka_img/pp/BANER120X120.gif" alt="Pukawka" /></a>
+            </div>
+        </aside>
+    </div>
+    <div id="wrap-footer">
+        <footer id="footer">
+            <p>{{site.footer}} | {{lcms.footer}}<br />
+            Template by <a href="http://stormweb.com.pl/">StormWEB</a></br />
+            Specjalna dedykacja dla <a href="http://cs-lod.com.pl/">CS-LOD</a></p> 
+        </footer>
+    </div>
+</body>
+</html>

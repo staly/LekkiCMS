@@ -1,0 +1,1 @@
+Aby wyświetlić formularz wyszukiwania, należy umieścić następujący kod w szablonie: {{search.form}}
